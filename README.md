@@ -1,10 +1,10 @@
-CKEditor 5 classic editor build
+CKEditor 5 classic editor build with html-embed
 ========================================
 
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@mohamed7afezz/ckeditor5-build-classic-html-embed)
 [![Coverage Status](https://coveralls.io/repos/github/ckeditor/ckeditor5/badge.svg?branch=master)](https://coveralls.io/github/ckeditor/ckeditor5?branch=master)
 [![Build Status](https://travis-ci.com/ckeditor/ckeditor5.svg?branch=master)](https://app.travis-ci.com/github/ckeditor/ckeditor5)
-![Dependency Status](https://img.shields.io/librariesio/release/npm/@ckeditor/ckeditor5-build-classic)
+![Dependency Status](https://img.shields.io/librariesio/release/npm/@mohamed7afezz/ckeditor5-build-classic-html-embed)
 
 The classic editor build for CKEditor 5. Read more about the [classic editor build](https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/predefined-builds.html#classic-editor) and see the [demo](https://ckeditor.com/docs/ckeditor5/latest/examples/builds/classic-editor.html).
 
@@ -24,7 +24,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic
+npm install --save @mohamed7afezz/ckeditor5-build-classic-html-embed
 ```
 
 And use it in your website:
@@ -33,7 +33,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script src="./node_modules/@mohamed7afezz/ckeditor5-build-classic-html-embed/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -49,10 +49,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from '@mohamed7afezz/ckeditor5-build-classic-html-embed';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
+// const ClassicEditor = require( '@mohamed7afezz/ckeditor5-build-classic-html-embed' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )

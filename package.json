@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@mohamed7afezz/ckeditor5-build-classic-html-embed",
   "version": "35.4.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "description": "The classic editor custom build of CKEditor 5 with html-embed – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -38,6 +38,7 @@
     "@ckeditor/ckeditor5-editor-classic": "^35.4.0",
     "@ckeditor/ckeditor5-essentials": "^35.4.0",
     "@ckeditor/ckeditor5-heading": "^35.4.0",
+    "@ckeditor/ckeditor5-html-embed": "^35.4.0",
     "@ckeditor/ckeditor5-image": "^35.4.0",
     "@ckeditor/ckeditor5-indent": "^35.4.0",
     "@ckeditor/ckeditor5-link": "^35.4.0",
@@ -72,7 +73,7 @@
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
+    "url": "https://github.com/mohamed7afezz/ckeditor5-build-classic-html-embed.git",
     "directory": "packages/ckeditor5-build-classic"
   },
   "scripts": {
